@@ -1,0 +1,30 @@
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+//fonts - fout
+.wf-loading {
+  // stylised fonts
+  .h1 {
+    font-family: "droid-sans";
+    visibility: hidden;
+  }
+
+
+}
+.wf-active {
+  // stylised fonts
+  .h1 {
+    visibility: visible;
+  }
+
+}
+
+.h1 {
+  @include font-size(3.2);
+}
+
+.standard-content {
+  @include font-size(1.1);
+  line-height: 24px;
+}

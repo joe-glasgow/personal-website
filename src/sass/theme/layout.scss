@@ -1,0 +1,21 @@
+@import "colours";
+.theme-block {
+  padding: 1.2rem 0;
+  display: inline-block;
+}
+// dark back, light border
+.theme-block--one {
+  background: $darkgrey;
+  border-bottom: 2px solid $lightgrey;
+  color: $limegreen;
+}
+// light back, dark border
+.theme-block--two {
+  background: $lightgrey;
+  border-bottom: 2px solid $darkgrey;
+  color: $plain;
+
+}
+.centred-content {
+  text-align: center;
+}

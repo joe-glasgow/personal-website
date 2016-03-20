@@ -1,0 +1,48 @@
+$inuit-base-line-height: 18px;
+//settings
+@import "bower_components/inuit-defaults/settings.defaults";
+@import "bower_components/inuit-responsive-settings/_settings.responsive";
+@import "src/sass/theme/font";
+@import "src/sass/theme/colours";
+//tools
+@import "bower_components/inuit-functions/tools.functions";
+@import "bower_components/inuit-mixins/tools.mixins";
+@import "bower_components/inuit-responsive-tools/_tools.responsive.scss";
+@import "bower_components/inuit-tools-widths/_tools.widths.scss";
+// widths
+@import "bower_components/inuit-widths/_trumps.widths.scss";
+@import "bower_components/inuit-widths-responsive/_trumps.widths-responsive.scss";
+@import "bower_components/inuit-layout/_objects.layout.scss";
+//normalise
+@import "bower_components/inuit-normalize/generic.normalize";
+@import "bower_components/inuit-box-sizing/generic.box-sizing";
+//base
+@import "bower_components/inuit-page/base.page";
+// custom themes#
+@import "src/sass/components/menus/navigation";
+@import "src/sass/theme/layout";
+@import "src/sass/components/logo/logo";
+//How to use the mixin for media query
+/* @include media-query('palm') {
+  body {
+    background: black;
+  }
+} */
+// CSS Wizardry
+.layout {
+  margin-left: 0;
+  padding: 1.2rem;
+  margin: 0 auto !important;
+  max-width: 1200px;
+}
+.layout__item {
+  padding-left: 0;
+  float: left;
+}
+// body
+body {
+  background: $darkgrey;
+}
+.container, body {
+  margin: 0 auto;
+}

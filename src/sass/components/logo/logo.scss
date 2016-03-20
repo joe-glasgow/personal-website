@@ -1,0 +1,16 @@
+@import '../../theme/colours';
+
+.letters {
+  position: relative;
+  display: inline-block;
+  border: 10px solid $plain;
+  padding: 15px;
+  border-radius: 25px 0;
+}
+
+.details {
+  border-top: 1px solid $plain;
+  line-height: 24px;
+  border-radius: 0 10px 0 0;
+  padding-right: 5px;
+}

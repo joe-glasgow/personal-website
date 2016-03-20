@@ -1,0 +1,29 @@
+.navigation--top__flush {
+  margin: 0;
+  text-align: right;
+}
+
+.navigation--vertical-item {
+  display: inline-block;
+  text-align: left;
+  padding: 0 1.2rem 0 0;
+  &:last-of-type {
+    padding: 0;
+  }
+}
+
+.navigation--top {
+  a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    transition: all 1s ease;
+    padding-bottom: 5px;
+    border-radius: 0 0 22px;
+    &:hover {
+      border-bottom: 2px solid #fff;
+      outline: none;
+      color: #fff;
+    }
+  }
+}

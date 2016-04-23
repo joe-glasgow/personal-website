@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './header/header';
 import Footer from './footer/footer';
+import Contact from './form/contact';
 
 class Template extends React.Component {
   constructor(props) {
@@ -35,6 +36,7 @@ class Template extends React.Component {
           </div>
         </div>
     </div>
+    <Contact/>
     <footer>
       <ul>
         <li>Home</li>

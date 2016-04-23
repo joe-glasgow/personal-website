@@ -33,7 +33,7 @@ let TopHeaderContent = {
 ReactDOM.render(
   <Template>
     <StandardBlock className={'theme-block theme-block--one'}>
-      <Header urls={['About', 'Portfolio', 'Contact']} content={LogoContent}/>
+      <Header urls={['Contact']} content={LogoContent}/>
     </StandardBlock>
     <FullLength
       blockClass={'theme-block theme-block--one'}
